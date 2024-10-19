@@ -1,0 +1,29 @@
+.im1 {
+    border-radius: 50%;
+}
+body {
+    /* background: linear-gradient(90deg, rgba(221,221,221,1) 70%, rgba(199,200,204,1) 100%); */
+    background: linear-gradient(360deg, #20b6e4fd, #eaf0f0, #d8d2d2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.bgim{
+    background-image: url("../assets/bgim.png");
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
